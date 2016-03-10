@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomTextView">
+        <attr name="customFont" format="enum">
+            <enum name="quicksand_regular" value="0"/>
+            <enum name="quicksand_bold" value="1"/>
+            <enum name="museo300_regular" value="2"/>
+            <enum name="museo700_regular" value="3"/>
+            <!--enum names should be lowercase and cannot contain special chars other then _ -->
+        </attr>
+    </declare-styleable>
+</resources>

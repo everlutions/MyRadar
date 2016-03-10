@@ -1,0 +1,29 @@
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--These attributes contribute to the toolbar actionbar-->
+        <item name="colorPrimary">@color/base_blue</item>
+        <item name="colorPrimaryDark">@color/base_blue</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <!--/These attributes contribute to the toolbar actionbar-->
+
+    </style>
+
+    <style name="base_textview" parent="base_text">
+        <item name="android:padding">@dimen/base_padding</item>
+    </style>
+
+    <style name="base_button" parent="base_text">
+        <item name="android:padding">@dimen/base_padding</item>
+        <!--TODO: This gives an error with the current theme-->
+        <item name="android:background">@color/base_blue</item>
+    </style>
+
+    <style name="base_text">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+</resources>

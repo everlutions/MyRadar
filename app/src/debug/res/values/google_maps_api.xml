@@ -1,0 +1,22 @@
+<resources>
+    <!--Go To-->
+    <!--https://console.developers.google.com/project-->
+    <!--Select your project (or create a new one)-->
+    <!--Make sure that Google Maps Android API is enabled under APIs & auth -> APIs-->
+    <!--Add a new android api key under APIs & auth -> Credentials-->
+    <!--use this command in the terminal to get the sha1 of you keystore file-->
+    <!--keytool -list -v -keystore ~/.android/debug.keystore-->
+    <!--the password for every debug.keystore is android-->
+
+    <!--Don't forget to add the meta data to your Android Manifest-->
+    <!--<meta-data-->
+        <!--android:name="com.google.android.gms.version"-->
+        <!--android:value="@integer/google_play_services_version" />-->
+    <!--<meta-data-->
+        <!--android:name="com.google.android.maps.v2.API_KEY"-->
+        <!--android:value="@string/google_maps_key" />-->
+    <!--THIS KEY CAN BE USED BY ANY APPLICATION-->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyAy1SiigRsoovGxsabZrUBw6M6t1Wuv8Tc
+    </string>
+</resources>

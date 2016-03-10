@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="base_black">#000000</color>
+    <color name="base_white">#ffffff</color>
+    <color name="base_red">#F44336</color>
+    <color name="base_blue">#2196F3</color>
+    <color name="base_green">#4CAF50</color>
+    <color name="base_yellow">#FFEB3B</color>
+    <color name="base_grey">#9E9E9E</color>
+    <color name="base_black_trans_50">#80000000</color>
+    <color name="base_white_trans_50">#80ffffff</color>
+
+</resources>

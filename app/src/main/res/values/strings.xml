@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyRadar</string>
+    <!--Your sender id is your google api project number-->
+    <string name="base_gcm_sender_id">694439037731</string>
+    <string name="base_string_int">var %1$s and var %2$d</string>
+
+    <string name="base_error">Something went wrong</string>
+    <string name="base_no_connection">The internet connection appears to be offline.</string>
+    <string name="base_retry">Try again</string>
+
+    <string name="base_share">share</string>
+
+</resources>
