@@ -1,4 +1,4 @@
 test:
   override:
     - ./gradlew assembleDebug
-    - cp -r MyRadar/build/outputs $CIRCLE_ARTIFACTS
+	- cp -r ${HOME}/${CIRCLE_PROJECT_REPONAME}/app/build/outputs/apk/ $CIRCLE_ARTIFACTS
